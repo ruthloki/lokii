@@ -1,0 +1,64 @@
+.loki {
+    text-align: center;
+    border: 2px solid rgb(41, 34, 34);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #c47c4cee;
+    margin: 20px;
+    padding: 4%;
+    font-family: 'Arial', sans-serif;
+    font-size: 50px;
+    color: #7103ee;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+    transition: transform 0.2s ease-in-out;
+    position: relative;
+    bottom: 40%;
+    background-image: url("src/trio.avif")
+}
+
+
+button {
+    background-color: rgb(88, 160, 21);
+    border: none;
+    color: rgb(10, 9, 10);
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 15px;
+    margin: 5px; 
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width: 5%;
+    height: 10%;
+    
+    
+}
+
+
+.button:hover {
+    background-color: rgb(241, 17, 212);
+    color: white;
+    transform: scale(1.1);
+}
+input{background-color: rgb(221, 165, 11);
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 15px;
+    margin: 5px; 
+    cursor: pointer;
+    border-radius: 20px;
+    width:15%;
+    height:20%;
+
+}
+
+    
