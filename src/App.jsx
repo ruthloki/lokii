@@ -8,7 +8,7 @@ function App() {
   return <>
   <div class="loki">
   <h1>** WELCOME TO THE SPATANS** </h1>
-  <input type="text" placeholder="Enter to search" onChange={(e) => setText(e,EventTarget.value)} />;
+  <input type="text" placeholder="Enter to search" onChange={(e) => setText(e,EventTarget.value)} />
   <button 
     onClick={() => {
       fetch("/api/search?text=" + text)
